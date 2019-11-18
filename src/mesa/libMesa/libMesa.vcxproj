@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\drivers\osmesa\osmesa.c" />
+    <ClCompile Include="..\main\accum.c" />
+    <ClCompile Include="..\main\attrib.c" />
+    <ClCompile Include="..\main\blend.c" />
+    <ClCompile Include="..\main\buffers.c" />
+    <ClCompile Include="..\main\clip.c" />
+    <ClCompile Include="..\main\colortab.c" />
+    <ClCompile Include="..\main\context.c" />
+    <ClCompile Include="..\main\convolve.c" />
+    <ClCompile Include="..\main\depth.c" />
+    <ClCompile Include="..\main\dispatch.c" />
+    <ClCompile Include="..\main\dlist.c" />
+    <ClCompile Include="..\main\drawpix.c" />
+    <ClCompile Include="..\main\enable.c" />
+    <ClCompile Include="..\main\enums.c" />
+    <ClCompile Include="..\main\eval.c" />
+    <ClCompile Include="..\main\extensions.c" />
+    <ClCompile Include="..\main\feedback.c" />
+    <ClCompile Include="..\main\fog.c" />
+    <ClCompile Include="..\main\get.c" />
+    <ClCompile Include="..\main\hash.c" />
+    <ClCompile Include="..\main\hint.c" />
+    <ClCompile Include="..\main\image.c" />
+    <ClCompile Include="..\main\light.c" />
+    <ClCompile Include="..\main\lines.c" />
+    <ClCompile Include="..\main\matrix.c" />
+    <ClCompile Include="..\main\pixel.c" />
+    <ClCompile Include="..\main\points.c" />
+    <ClCompile Include="..\main\polygon.c" />
+    <ClCompile Include="..\main\rastpos.c" />
+    <ClCompile Include="..\main\state.c" />
+    <ClCompile Include="..\main\stencil.c" />
+    <ClCompile Include="..\main\texformat.c" />
+    <ClCompile Include="..\main\teximage.c" />
+    <ClCompile Include="..\main\texobj.c" />
+    <ClCompile Include="..\main\texstate.c" />
+    <ClCompile Include="..\main\texutil.c" />
+    <ClCompile Include="..\main\varray.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\GL\gl.h" />
+    <ClInclude Include="..\..\..\include\GL\glext.h" />
+    <ClInclude Include="..\..\..\include\GL\gl_mangle.h" />
+    <ClInclude Include="..\..\..\include\GL\osmesa.h" />
+    <ClInclude Include="..\main\accum.h" />
+    <ClInclude Include="..\main\attrib.h" />
+    <ClInclude Include="..\main\blend.h" />
+    <ClInclude Include="..\main\buffers.h" />
+    <ClInclude Include="..\main\clip.h" />
+    <ClInclude Include="..\main\colortab.h" />
+    <ClInclude Include="..\main\config.h" />
+    <ClInclude Include="..\main\context.h" />
+    <ClInclude Include="..\main\dd.h" />
+    <ClInclude Include="..\main\depth.h" />
+    <ClInclude Include="..\main\dlist.h" />
+    <ClInclude Include="..\main\drawpix.h" />
+    <ClInclude Include="..\main\enable.h" />
+    <ClInclude Include="..\main\enums.h" />
+    <ClInclude Include="..\main\eval.h" />
+    <ClInclude Include="..\main\extensions.h" />
+    <ClInclude Include="..\main\feedback.h" />
+    <ClInclude Include="..\main\fog.h" />
+    <ClInclude Include="..\main\get.h" />
+    <ClInclude Include="..\main\glheader.h" />
+    <ClInclude Include="..\main\hash.h" />
+    <ClInclude Include="..\main\hint.h" />
+    <ClInclude Include="..\main\image.h" />
+    <ClInclude Include="..\main\light.h" />
+    <ClInclude Include="..\main\lines.h" />
+    <ClInclude Include="..\main\macros.h" />
+    <ClInclude Include="..\main\matrix.h" />
+    <ClInclude Include="..\main\pixel.h" />
+    <ClInclude Include="..\main\points.h" />
+    <ClInclude Include="..\main\polygon.h" />
+    <ClInclude Include="..\main\rastpos.h" />
+    <ClInclude Include="..\main\simple_list.h" />
+    <ClInclude Include="..\main\state.h" />
+    <ClInclude Include="..\main\stencil.h" />
+    <ClInclude Include="..\main\texformat.h" />
+    <ClInclude Include="..\main\teximage.h" />
+    <ClInclude Include="..\main\texobj.h" />
+    <ClInclude Include="..\main\texstate.h" />
+    <ClInclude Include="..\main\texutil.h" />
+    <ClInclude Include="..\main\texutil_tmp.h" />
+    <ClInclude Include="..\main\types.h" />
+    <ClInclude Include="..\main\varray.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FD1DEFCD-92CC-4B9E-84D6-3E5D60C61051}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libMesa</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;WIN32;__WIN32__;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>$(SolutionDir)src\mesa\main;$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;WIN32;__WIN32__;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>$(SolutionDir)src\mesa\main;$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
