@@ -30,7 +30,6 @@
 #include "imports.h"
 #include "histogram.h"
 #include "macros.h"
-#include "mmath.h"
 #include "pixel.h"
 #include "mtypes.h"
 

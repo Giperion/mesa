@@ -36,7 +36,6 @@
 #include "dlist.h"
 #include "macros.h"
 #include "imports.h"
-#include "mmath.h"
 #include "light.h"
 #include "state.h"
 #include "mtypes.h"

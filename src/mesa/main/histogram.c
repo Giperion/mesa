@@ -29,7 +29,6 @@
 #include "context.h"
 #include "image.h"
 #include "histogram.h"
-#include "mmath.h"
 
 
 /*

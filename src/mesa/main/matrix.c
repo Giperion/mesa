@@ -41,7 +41,6 @@
 #include "enums.h"
 #include "macros.h"
 #include "matrix.h"
-#include "mmath.h"
 #include "mtypes.h"
 #include "math/m_matrix.h"
 

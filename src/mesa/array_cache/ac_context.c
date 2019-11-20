@@ -29,7 +29,6 @@
 #include "glheader.h"
 #include "macros.h"
 #include "imports.h"
-#include "mmath.h"
 #include "mtypes.h"
 
 #include "array_cache/ac_context.h"

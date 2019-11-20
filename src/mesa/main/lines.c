@@ -29,7 +29,6 @@
 #include "depth.h"
 #include "lines.h"
 #include "macros.h"
-#include "mmath.h"
 #include "texstate.h"
 #include "mtypes.h"
 

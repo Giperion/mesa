@@ -29,7 +29,6 @@
 #include "glheader.h"
 #include "context.h"
 #include "imports.h"
-#include "mmath.h"
 #include "state.h"
 #include "mtypes.h"
 

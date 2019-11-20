@@ -30,7 +30,6 @@
 #include "colormac.h"
 #include "context.h"
 #include "imports.h"
-#include "mmath.h"
 #include "mtypes.h"
 
 #include "math/m_translate.h"

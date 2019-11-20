@@ -31,7 +31,6 @@
 #include "enums.h"
 #include "light.h"
 #include "macros.h"
-#include "mmath.h"
 #include "simple_list.h"
 #include "mtypes.h"
 #include "math/m_xform.h"

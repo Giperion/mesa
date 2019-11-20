@@ -31,7 +31,6 @@
 #include "extensions.h"
 #include "get.h"
 #include "macros.h"
-#include "mmath.h"
 #include "mtypes.h"
 #include "texcompress.h"
 #include "math/m_matrix.h"

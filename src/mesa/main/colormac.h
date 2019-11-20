@@ -36,7 +36,6 @@
 #include "glheader.h"
 #include "config.h"
 #include "macros.h"
-#include "mmath.h"
 /* Do not reference mtypes.h from this file.
  */
 

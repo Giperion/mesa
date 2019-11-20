@@ -30,7 +30,6 @@
 #include "drawpix.h"
 #include "feedback.h"
 #include "macros.h"
-#include "mmath.h"
 #include "state.h"
 #include "mtypes.h"
 

@@ -200,7 +200,7 @@
 /*
  * Enable/disable features (blocks of code) by setting FEATURE_xyz to 0 or 1.
  */
-#define FEATURE_NV_vertex_program 1
+#define FEATURE_NV_vertex_program 0
 
 
 #endif /* CONFIG_H */

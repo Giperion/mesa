@@ -43,7 +43,6 @@
 #include "context.h"
 #include "eval.h"
 #include "macros.h"
-#include "mmath.h"
 #include "mtypes.h"
 
 

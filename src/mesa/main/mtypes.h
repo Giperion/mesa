@@ -36,6 +36,7 @@
 #include "config.h"		/* Hardwired parameters */
 #include "glapitable.h"
 #include "glthread.h"
+#include <math.h>
 
 #include "math/m_matrix.h"	/* GLmatrix */
 
@@ -1827,7 +1828,16 @@ enum _debug {
    DEBUG_ALWAYS_FLUSH		= 0x1
 };
 
+//#define BYTE_TO_FLOAT(byte) (((float)byte) / (255.0f))
+//#define INT_TO_FLOAT(integer) ((float)integer / ((float)INT_MAX))
+//#define SHORT_TO_FLOAT(integer) (float)integer / 
 
+#define BYTE_TO_FLOAT(byte) ((float)byte)
+#define INT_TO_FLOAT(integer) ((float)integer)
+#define SHORT_TO_FLOAT(integer) ((float)integer)
+#define USHORT_TO_FLOAT(integer) ((float)integer)
+#define CLAMPED_FLOAT_TO_CHAN(output, input) output = ((GLchan)(input > CHAN_MAXF ? CHAN_MAXF : input < 0.0f ? 0.0f : input))
+#define IS_INF_OR_NAN(input) (isnan(input) || isinf(input))
 
 #define Elements(x) sizeof(x)/sizeof(*(x))
 

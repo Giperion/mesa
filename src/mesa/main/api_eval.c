@@ -30,7 +30,6 @@
 #include "api_eval.h"
 #include "context.h"
 #include "macros.h"
-#include "mmath.h"
 #include "math/m_eval.h"
 
 static void do_EvalCoord1f(GLcontext* ctx, GLfloat u)
